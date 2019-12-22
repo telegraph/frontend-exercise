@@ -7,6 +7,8 @@ const port = 3000;
 app.engine('handlebars', exphbs());
 app.set('view engine', 'handlebars');
 
+app.use('*/static', express.static('public'));
+
 app.use(router);
 
 app.listen(port, () => console.log(`Listening on port ${port}!`));
