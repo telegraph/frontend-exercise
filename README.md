@@ -57,20 +57,33 @@ The above command will watch and deploy your code. The watchers for CSS and JS f
 *Work in progress*
 
 ```
-- I can see the title of the article
-- I can see the standfirst of the article
-- I can see the comment count of the associated comments
-- I can see the date of the article
-- I can see associated posts by ID
+Scenario: Show single post
+	Given that I submit the path of the article into the browser
+	And the path is "/einstein-and-churchill-both-took-daily-naps"
+	Then the post page should be returned
+	And the page shows the title of the article
+	And the page shows the standfirst of the article
+	And the page shows the date of the article
+	And the page shows the image of the article
+	And the page shows the associated comment count of the article
+```
+
+```
+Scenario: Show associated articles
+	Given that I access the single post page
+	Then the post page should return associated posts
+	And each item should show the title of the article
+	And each item should show the date of the article
+	And each item should show the thumbnail of the article
+	And each item should show the premium label if premium
 ```
 
 ## TODO
 
 - Get designs
 - Write proper ACs
-- How to submit code
-- Add test data (inc URLs)
 - How to submit code?
+- Add test data (inc URLs)
 
 ### Example JSON requests
 
