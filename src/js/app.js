@@ -1,3 +1,3 @@
-const LazyLoad = require('./lazyload');
+const Utils = require('./utils');
 
-new LazyLoad();
+new Utils();
