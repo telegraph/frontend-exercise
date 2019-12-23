@@ -5,7 +5,7 @@
   "main": "server/app.js",
   "scripts": {
     "dev": "npm-run-all -p dev:server watch",
-    "dev:server": "nodemon server/app.js -e handlebars,json --watch server --watch views",
+    "dev:server": "nodemon server/app.js -e js,handlebars,json --watch server --watch views",
     "build": "npm-run-all build:*",
     "build:css": "postcss \"src/css/app.css\" --config postcss.config.js --dir \"public/\"",
     "build:js": "webpack",
