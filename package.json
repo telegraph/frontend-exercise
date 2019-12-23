@@ -4,7 +4,8 @@
   "description": "Telegraph Front-End Exercise",
   "main": "server/app.js",
   "scripts": {
-    "dev": "node server/app.js",
+	"dev": "npm-run-all -p dev:server watch",
+	"dev:server": "node server/app.js",
     "build": "npm-run-all build:*",
     "build:css": "postcss \"src/css/app.css\" --config postcss.config.js --dir \"public/\"",
     "watch": "npm-run-all watch:*",
