@@ -2,7 +2,7 @@
 
 :wave: Welcome to The Telegraph front-end candidate test
 
-- [Task](#wrench_task)
+- [Task](#wrench-task)
 	- [Requirements](#mega-requirements)
 	- [What we are looking for](#mag_right-what-we-are-looking-for)
 - [Set up](#floppy_disk-set-up)
