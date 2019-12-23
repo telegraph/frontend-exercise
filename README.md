@@ -3,23 +3,24 @@
 :wave: Welcome to The Telegraph front-end candidate test
 
 - [Task](#wrench_task)
+	- [Requirements](#mega-requirements)
 	- [What we are looking for](#mag_right-what-we-are-looking-for)
 - [Set up](#floppy_disk-set-up)
-- [Acceptance Criteria](#acceptance-criteria)
+- [Acceptance Criteria](#scroll-acceptance-criteria)
 
 ## :wrench: Task 
 
-We would like you to build a responsive news article as per the included designs. You should meet the [ACs](#acceptance-criteria).
+We would like you to build a responsive news article as per the included designs. You should meet the [ACs](#scroll-acceptance-criteria).
 
 We've built a bare-bones [express](https://expressjs.com/) application with some basic front-end tooling ([webpack](https://webpack.js.org/) for JavaScript compilation and [PostCSS](https://postcss.org/) for CSS concatenation).
 
 You should spend no more than four hours on this task. If you do not complete the task in time please submit with a list of what you would have done with more time. Feel free to be specific and write `// TODO`s throughout your code.
 
-## Requirements
+## :mega: Requirements
 
 * Match the designs as closely as possible
 * Application should be fully responsive
-* Pass the [ACs](#acceptance-criteria)
+* Pass the [ACs](#scroll-acceptance-criteria)
 * Ensure code is unit tested. We've set this up with [Jest](https://jestjs.io/) but feel free to use whatever you like
 * Keep you JavaScript vanilla please
 
@@ -51,7 +52,7 @@ Visit [http://localhost:3000/](http://localhost:3000/) in your web browser and y
 
 The above command will watch and deploy your code. The watchers for CSS and JS files will not take into account changes to new files so make sure you restart the watchers when adding new files.
 
-## Acceptance Criteria
+## :scroll: Acceptance Criteria
 
 *Work in progress*
 
