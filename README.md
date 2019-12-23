@@ -1,25 +1,25 @@
-# Front-End Candidate Test :mortar_board:
+# Front-End Candidate Test
 
-Welcome to The Telegraph front-end candidate test :wave:
+:wave: Welcome to The Telegraph front-end candidate test
 
-- [Task](task)
-	- [What we are looking for](what-we-are-looking-for)
-- [Set up](set-up)
-- [Scenarios](scenarios)
+- [Task](#wrench_task)
+	- [What we are looking for](#mag_right-what-we-are-looking-for)
+- [Set up](#floppy_disk-set-up)
+- [Scenarios](#scenarios)
 
-## Task :wrench:
+## :wrench: Task 
 
 We would like you to build a responsive news article as per the included designs. You should meet all of the [scenarios](scenarios).
 
-### What we are looking for :mag_right:
+## :mag_right: What we are looking for
 
 * An understanding of web fundamentals
 * A consistent and scalable approach
 * An understanding of accessibility
-* Reasonging about web performance
+* Reasoning about web performance
 * Solid unit testing
 
-## Set up :floppy_disk:
+## :floppy_disk: Set up
 
 Firstly, install all of the packages:
 
@@ -42,6 +42,7 @@ The above command will watch and deploy your code. The watchers for CSS and JS f
 TBC
 
 ### Example JSON requests
+
 - GET all posts - https://jsonplaceholder.typicode.com/posts
 - GET a single post by ID - https://jsonplaceholder.typicode.com/posts/1
 - GET comments for a post - https://jsonplaceholder.typicode.com/posts/1/comments
