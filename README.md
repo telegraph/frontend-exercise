@@ -6,8 +6,9 @@
 	- [Requirements](#mega-requirements)
 	- [What we are looking for](#mag_right-what-we-are-looking-for)
 - [Set up](#floppy_disk-set-up)
-- [Acceptance Criteria](#scroll-acceptance-criteria)
 - [Endpoints](#end-endpoints)
+- [Acceptance criteria](#scroll-acceptance-criteria)
+- [Submitting your code](#mailbox_with_mail-submitting-your-code)
 
 ## :wrench: Task 
 
@@ -19,7 +20,7 @@ We have three [endpoints](#end-endpoints) available to complete some of the task
 
 You should spend no more than four hours on this task. If you do not complete the task in time please submit with a list of what you would have done with more time. Feel free to be specific and write `// TODO`s throughout your code.
 
-## :mega: Requirements
+### :mega: Requirements
 
 * Match the designs as closely as possible
 * Application should be fully responsive
@@ -27,7 +28,7 @@ You should spend no more than four hours on this task. If you do not complete th
 * Ensure code is unit tested. We've set this up with [Jest](https://jestjs.io/) but feel free to use whatever you like
 * Keep you JavaScript vanilla please
 
-## :mag_right: What we are looking for
+### :mag_right: What we are looking for
 
 * An understanding of web fundamentals
 * A consistent and scalable approach to the test
@@ -55,7 +56,15 @@ Visit [http://localhost:3000/](http://localhost:3000/) in your web browser and y
 
 The above command will watch and deploy your code. The watchers for CSS and JS files will not take into account changes to new files so make sure you restart the watchers when adding new files.
 
-## :scroll: Acceptance Criteria
+## :end: Endpoints
+
+* Posts: [https://my-json-server.typicode.com/telegraph/frontend-exercise/posts](https://my-json-server.typicode.com/telegraph/frontend-exercise/posts)
+* Comments: [https://my-json-server.typicode.com/telegraph/frontend-exercise/comments](https://my-json-server.typicode.com/telegraph/frontend-exercise/comments)
+* Categories: [https://my-json-server.typicode.com/telegraph/frontend-exercise/categories](https://my-json-server.typicode.com/telegraph/frontend-exercise/categories)
+* Article Data: `server/content/article.json`
+* Meta: `server/content/meta.json`
+
+## :scroll: Acceptance criteria
 
 *Work in progress*
 
@@ -81,16 +90,14 @@ Scenario: Show associated articles
 	And each item should show the premium label if premium
 ```
 
-### :end: Endpoints
+## :mailbox_with_mail: Submitting your code
 
-* Posts: [https://my-json-server.typicode.com/telegraph/frontend-exercise/posts](https://my-json-server.typicode.com/telegraph/frontend-exercise/posts)
-* Comments: [https://my-json-server.typicode.com/telegraph/frontend-exercise/comments](https://my-json-server.typicode.com/telegraph/frontend-exercise/comments)
-* Categories: [https://my-json-server.typicode.com/telegraph/frontend-exercise/categories](https://my-json-server.typicode.com/telegraph/frontend-exercise/categories)
-* Article Data: `server/content/article.json`
-* Meta: `server/content/meta.json`
+Send us a link to your repository. We should be able to build and run your application locally.
+
+Please also feedback on how you found the test - what did you like/not like about it?
+
+Feel free to send us any other additional notes. E.g. what you would have done with more time.
 
 ## TODO
 
-- Get designs
-- Write proper ACs
-- How to submit code?
+- Get designs and write up task (and proper ACs)
