@@ -7,12 +7,15 @@
 	- [What we are looking for](#mag_right-what-we-are-looking-for)
 - [Set up](#floppy_disk-set-up)
 - [Acceptance Criteria](#scroll-acceptance-criteria)
+- [Endpoints](#end-endpoints)
 
 ## :wrench: Task 
 
 We would like you to build a responsive news article as per the included designs. You should meet the [ACs](#scroll-acceptance-criteria).
 
 We've built a bare-bones [express](https://expressjs.com/) application with some basic front-end tooling ([webpack](https://webpack.js.org/) for JavaScript compilation and [PostCSS](https://postcss.org/) for CSS concatenation).
+
+We have three [endpoints](#end-endpoints) available to complete some of the tasks
 
 You should spend no more than four hours on this task. If you do not complete the task in time please submit with a list of what you would have done with more time. Feel free to be specific and write `// TODO`s throughout your code.
 
@@ -78,15 +81,16 @@ Scenario: Show associated articles
 	And each item should show the premium label if premium
 ```
 
+### :end: Endpoints
+
+* Posts: [https://my-json-server.typicode.com/telegraph/frontend-exercise/posts](https://my-json-server.typicode.com/telegraph/frontend-exercise/posts)
+* Comments: [https://my-json-server.typicode.com/telegraph/frontend-exercise/comments](https://my-json-server.typicode.com/telegraph/frontend-exercise/comments)
+* Categories: [https://my-json-server.typicode.com/telegraph/frontend-exercise/categories](https://my-json-server.typicode.com/telegraph/frontend-exercise/categories)
+* Article Data: `server/content/article.json`
+* Meta: `server/content/meta.json`
+
 ## TODO
 
 - Get designs
 - Write proper ACs
 - How to submit code?
-- Add test data (inc URLs)
-
-### Example JSON requests
-
-- GET all posts - https://jsonplaceholder.typicode.com/posts
-- GET a single post by ID - https://jsonplaceholder.typicode.com/posts/1
-- GET comments for a post - https://jsonplaceholder.typicode.com/posts/1/comments
