@@ -16,7 +16,9 @@ We would like you to build a responsive news article as per the included designs
 
 We've built a bare-bones [express](https://expressjs.com/) application with some basic front-end tooling ([webpack](https://webpack.js.org/) for JavaScript compilation and [PostCSS](https://postcss.org/) for CSS concatenation).
 
-We have three [endpoints](#end-endpoints) available to complete some of the tasks
+We have three [endpoints](#end-endpoints) available to complete some of the tasks.
+
+Your code should work in modern browsers such as Chrome, Firefox and Edge. Do not worry about supporting IE11 or below.
 
 You should spend no more than four hours on this task. If you do not complete the task in time please submit with a list of what you would have done with more time. Feel free to be specific and write `// TODO`s throughout your code.
 
@@ -101,3 +103,4 @@ Feel free to send us any other additional notes. E.g. what you would have done w
 ## TODO
 
 - Get designs and write up task (and proper ACs)
+- Read more should be in the designs
