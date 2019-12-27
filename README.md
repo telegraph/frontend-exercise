@@ -26,7 +26,7 @@ You should spend no more than four hours on this task. If you do not complete th
 * Application should be fully responsive
 * Pass the [ACs](#scroll-acceptance-criteria)
 * Ensure code is unit tested. We've set this up with [Jest](https://jestjs.io/) but feel free to use whatever you like
-* Keep you JavaScript vanilla please
+* Keep your JavaScript vanilla please
 
 ### :mag_right: What we are looking for
 
