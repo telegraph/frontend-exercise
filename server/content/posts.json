@@ -42,36 +42,5 @@
 			"title": "Integer ullamcorper neque a sem interdum, eu semper purus maximus",
 			"thumbnail": "https://i.picsum.photos/id/815/300/170.jpg"
 		}
-	],
-	"comments": [
-		{
-			"id": 1,
-			"article": 4,
-			"total": 12
-		},
-		{
-			"id": 2,
-			"article": 6,
-			"total": 6
-		},
-		{
-			"id": 3,
-			"article": 8,
-			"total": 124
-		}
-	],
-	"categories": [
-		{
-			"id": 1,
-			"name": "News"
-		},
-		{
-			"id": 2,
-			"name": "Politics"
-		},
-		{
-			"id": 3,
-			"name": "Lifestyle"
-		}
 	]
 }
