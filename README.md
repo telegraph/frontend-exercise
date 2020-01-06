@@ -60,11 +60,11 @@ The above command will watch and deploy your code. The watchers for CSS and JS f
 
 ## :end: Endpoints
 
-* Posts: [https://my-json-server.typicode.com/telegraph/frontend-exercise/posts](https://my-json-server.typicode.com/telegraph/frontend-exercise/posts)
-* Comments: [https://my-json-server.typicode.com/telegraph/frontend-exercise/comments](https://my-json-server.typicode.com/telegraph/frontend-exercise/comments)
-* Categories: [https://my-json-server.typicode.com/telegraph/frontend-exercise/categories](https://my-json-server.typicode.com/telegraph/frontend-exercise/categories)
+* Posts: `server/content/posts.json`
+* Categories: `server/content/categories.json`
 * Article Data: `server/content/article.json`
 * Meta: `server/content/meta.json`
+* Comments: [https://my-json-server.typicode.com/telegraph/frontend-exercise/comments](https://my-json-server.typicode.com/telegraph/frontend-exercise/comments)
 
 ## :scroll: Acceptance criteria
 
