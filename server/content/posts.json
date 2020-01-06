@@ -1,0 +1,77 @@
+{
+	"posts": [
+		{
+			"id": 12,
+			"category": 3,
+			"title": "Lorem ipsum dolor sit amet consectetur adipiscing elit",
+			"thumbnail": "https://i.picsum.photos/id/515/300/170.jpg"
+		},
+		{
+			"id": 16,
+			"category": 5,
+			"title": "Proin pulvinar arcu egestas, suscipit risus sit amet",
+			"thumbnail": "https://i.picsum.photos/id/415/300/170.jpg"
+		},
+		{
+			"id": 18,
+			"category": 3,
+			"title": "Mauris vel mi sodales laoreet magna eu",
+			"thumbnail": "https://i.picsum.photos/id/315/300/170.jpg"
+		},
+		{
+			"id": 19,
+			"category": 3,
+			"title": "Maecenas feugiat est eget placerat finibus, urna mauris iaculis tortor",
+			"thumbnail": "https://i.picsum.photos/id/215/300/170.jpg"
+		},
+		{
+			"id": 21,
+			"category": 2,
+			"title": "Duis auctor risus sit amet consectetur commodo",
+			"thumbnail": "https://i.picsum.photos/id/115/300/170.jpg"
+		},
+		{
+			"id": 24,
+			"category": 3,
+			"title": "Donec eget risus id orci tristique pharetra",
+			"thumbnail": "https://i.picsum.photos/id/715/300/170.jpg"
+		},
+		{
+			"id": 28,
+			"category": 2,
+			"title": "Integer ullamcorper neque a sem interdum, eu semper purus maximus",
+			"thumbnail": "https://i.picsum.photos/id/815/300/170.jpg"
+		}
+	],
+	"comments": [
+		{
+			"id": 1,
+			"article": 4,
+			"total": 12
+		},
+		{
+			"id": 2,
+			"article": 6,
+			"total": 6
+		},
+		{
+			"id": 3,
+			"article": 8,
+			"total": 124
+		}
+	],
+	"categories": [
+		{
+			"id": 1,
+			"name": "News"
+		},
+		{
+			"id": 2,
+			"name": "Politics"
+		},
+		{
+			"id": 3,
+			"name": "Lifestyle"
+		}
+	]
+}
