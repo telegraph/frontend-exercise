@@ -128,5 +128,5 @@ Feel free to send us any other additional notes. E.g. what you would have done w
 
 ## TODO
 
-- Update thumbnail sizes to match design
-- Font?
+- Check README
+- Font in designs?
