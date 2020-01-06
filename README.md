@@ -23,12 +23,12 @@ You should spend no more than four hours on this task. If you do not complete th
 
 ### :mega: Requirements
 
-* Match the [designs](#art-designs) as closely as possible
+* Match the [designs](#art-designs) as closely as possible, filling in any gaps as you deem fit
 * Application should be fully responsive
 * Pass the [ACs](#scroll-acceptance-criteria)
 * Ensure code is unit tested. We've set this up with [Jest](https://jestjs.io/) but feel free to use whatever you like
-* Keep your JavaScript vanilla please
 * Comments should be called in once the DOM is ready via [this endpoint](https://my-json-server.typicode.com/telegraph/frontend-exercise/comments)
+* Keep your JavaScript vanilla please :icecream:
 
 ### :mag_right: What we are looking for
 
@@ -38,7 +38,7 @@ You should spend no more than four hours on this task. If you do not complete th
 * Reasoning about web performance
 * Reasoning about SEO
 * Solid unit testing
-* Ability to translate designs
+* Ability to translate designs into code
 
 ### :open_file_folder: Data
 
@@ -120,13 +120,18 @@ Scenario: Order comments by likes
 
 ## :mailbox_with_mail: Submitting your code
 
-Please don't fork this repository as the links will be accessible to other candidates. Instead, please clone it into your own repo and send us a link. We should be able to build and run your application locally.
+:no_entry_sign: Please don't fork this repository as the links will be accessible to other candidates. 
 
-Please also feedback on how you found the test - what did you like/not like about it?
+:heavy_check_mark: Please clone it into your own repo and send us a link. 
 
-Feel free to send us any other additional notes. E.g. what you would have done with more time.
+:heavy_check_mark: We should be able to build and run your application locally.
+
+:heavy_check_mark: Please also feedback on how you found the test - what did you like/not like about it?
+
+:heavy_check_mark: Feel free to send us any other additional notes. E.g. what you would have done with more time.
 
 ## TODO
 
 - Check README
 - Font in designs?
+- Check with other developers
