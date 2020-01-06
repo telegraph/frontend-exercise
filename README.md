@@ -5,9 +5,9 @@
 - [Task](#wrench-task)
 	- [Requirements](#mega-requirements)
 	- [What we are looking for](#mag_right-what-we-are-looking-for)
+	- [Data](#open_file_folder-data)
+	- [Designs](#art-designs)
 - [Set up](#floppy_disk-set-up)
-- [Data](#open_file_folder-data)
-- [Designs](#art-designs)
 - [Acceptance criteria](#scroll-acceptance-criteria)
 - [Submitting your code](#mailbox_with_mail-submitting-your-code)
 
@@ -40,6 +40,18 @@ You should spend no more than four hours on this task. If you do not complete th
 * Solid unit testing
 * Ability to translate designs
 
+### :open_file_folder: Data
+
+* Article data: `server/content/article.json`
+* Posts: `server/content/posts.json`
+* Meta: `server/content/meta.json`
+* Comments: [https://my-json-server.typicode.com/telegraph/frontend-exercise/comments](https://my-json-server.typicode.com/telegraph/frontend-exercise/comments)
+
+### :art: Designs
+
+* The designs are in [Figma](https://help.figma.com/article/116-getting-started) and can be found [here](https://www.figma.com/file/aNhLCCBFArm2CgETeo47lV/Article-Template)
+* You can toggle the grid on and off by clicking the hamburger menu (top left) and selecting `View > Layout Grids`.
+
 ## :floppy_disk: Set up
 
 Firstly, install all of the packages:
@@ -54,22 +66,9 @@ Then run:
 npm run dev
 ```
 
-Visit [http://localhost:3000/](http://localhost:3000/) in your web browser and you *should* see a blank webpage with The Telegraph logo.
+Visit [http://localhost:3000/](http://localhost:3000/) in your web browser and you *should* see a blank webpage with The Telegraph logo and a 'Hello World' message.
 
 The above command will watch and deploy your code. The watchers for CSS and JS files will not take into account changes to new files so make sure you restart the watchers when adding new files.
-
-## :open_file_folder: Data
-
-* Article data: `server/content/article.json`
-* Posts: `server/content/posts.json`
-* Categories: `server/content/categories.json`
-* Meta: `server/content/meta.json`
-* Comments: [https://my-json-server.typicode.com/telegraph/frontend-exercise/comments](https://my-json-server.typicode.com/telegraph/frontend-exercise/comments)
-
-## :art: Designs
-
-* The designs are in [Figma](https://help.figma.com/article/116-getting-started) and can be found [here](https://www.figma.com/file/aNhLCCBFArm2CgETeo47lV/Article-Template)
-* You can toggle the grid on and off by clicking the hamburger menu (top left) and selecting `View > Layout Grids`
 
 ## :scroll: Acceptance criteria
 
@@ -89,7 +88,7 @@ Scenario: Show single post
 Scenario: Show associated articles
 	Given that I access the single post page
 	Then the post page should return associated posts by category
-	And each item should show the title of the article
+	And each item should show the title of the article 
 	And each item should show the date of the article
 	And each item should show the thumbnail of the article
 	And each item should show the premium label if premium
@@ -116,12 +115,12 @@ Scenario: Order comments by newest
 Scenario: Order comments by likes
 	Given that I click the Likes button in the comments area
 	Then then the comments should display in order of most likes
-	And the comments should show most likes first
+	And the comments should show most liked first
 ```
 
 ## :mailbox_with_mail: Submitting your code
 
-Send us a link to your repository. We should be able to build and run your application locally.
+Please don't fork this repository as the links will be accessible to other candidates. Instead, please clone it into your own repo and send us a link. We should be able to build and run your application locally.
 
 Please also feedback on how you found the test - what did you like/not like about it?
 
@@ -129,6 +128,5 @@ Feel free to send us any other additional notes. E.g. what you would have done w
 
 ## TODO
 
-- Write up task (and proper ACs)
 - Update thumbnail sizes to match design
 - Font?
