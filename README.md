@@ -27,7 +27,7 @@ You should spend no more than four hours on this task. If you do not complete th
 * Application should be fully responsive
 * Pass the [ACs](#scroll-acceptance-criteria)
 * Ensure code is unit tested. We've set this up with [Jest](https://jestjs.io/) but feel free to use whatever you like
-* Comments should be called in once the DOM is ready via [this endpoint](https://my-json-server.typicode.com/telegraph/frontend-exercise/comments)
+* Comments should be called once the DOM is ready via [this endpoint](https://my-json-server.typicode.com/telegraph/frontend-exercise/comments). This call should be made client-side and injected with JavaScript.
 * Keep your JavaScript vanilla please :icecream:
 
 ### :mag_right: What we are looking for
@@ -51,6 +51,7 @@ You should spend no more than four hours on this task. If you do not complete th
 
 * The designs are in [Figma](https://help.figma.com/article/116-getting-started) and can be found [here](https://www.figma.com/file/aNhLCCBFArm2CgETeo47lV/Article-Template)
 * You can toggle the grid on and off by clicking the hamburger menu (top left) and selecting `View > Layout Grids`.
+* The font in the design file is a custom font so feel free to use whichever font you like.
 
 ## :floppy_disk: Set up
 
