@@ -19,7 +19,7 @@ We've built a bare-bones [express](https://expressjs.com/) application with some
 
 Your code should work in modern browsers such as Chrome, Firefox and Edge. Do not worry about supporting IE11 or below.
 
-You should spend no more than four hours on this task. If you do not complete the task in time please submit with a list of what you would have done with more time. Feel free to be specific and write `// TODO`s throughout your code.
+You should spend around four hours on this task. If you do not complete the task in time please submit with a list of what you would have done with more time. Feel free to be specific and write `// TODO`s throughout your code.
 
 ### :mega: Requirements
 
@@ -49,8 +49,8 @@ You should spend no more than four hours on this task. If you do not complete th
 
 ### :art: Designs
 
-* The designs are in [Figma](https://help.figma.com/article/116-getting-started) and can be found [here](https://www.figma.com/file/aNhLCCBFArm2CgETeo47lV/Article-Template)
-* You can toggle the grid on and off by clicking the hamburger menu (top left) and selecting `View > Layout Grids`.
+* The designs are in [Figma](https://help.figma.com/article/116-getting-started) and can be found [here](https://www.figma.com/file/aNhLCCBFArm2CgETeo47lV/Article-Template), alternatively there are exported design files in the `design` directory in the root of the project.
+* If using Figma, you can toggle the grid on and off by clicking the hamburger menu (top left) and selecting `View > Layout Grids`.
 * The font in the design file is a custom font so feel free to use whichever font you like.
 
 ## :floppy_disk: Set up
@@ -134,5 +134,4 @@ Scenario: Order comments by likes
 ## TODO
 
 - Check README
-- Font in designs?
-- Check with other developers
+- Publically visible Figma link
