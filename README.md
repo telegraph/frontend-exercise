@@ -49,7 +49,7 @@ You should spend around four hours on this task. If you do not complete the task
 
 ### :art: Designs
 
-* The designs are in [Figma](https://help.figma.com/article/116-getting-started) and can be found [here](https://www.figma.com/file/aNhLCCBFArm2CgETeo47lV/Article-Template), alternatively there are exported design files in the `design` directory in the root of the project.
+* The designs are in [Figma](https://help.figma.com/article/116-getting-started) and can be found [here](https://www.figma.com/file/9AwWDASywE5qTuPGsdhbm5/Article-Template), alternatively there are exported design files in the `design` directory in the root of the project.
 * If using Figma, you can toggle the grid on and off by clicking the hamburger menu (top left) and selecting `View > Layout Grids`.
 * The font in the design file is a custom font so feel free to use whichever font you like.
 
@@ -130,8 +130,3 @@ Scenario: Order comments by likes
 :heavy_check_mark: Please also feedback on how you found the test - what did you like/not like about it?
 
 :heavy_check_mark: Feel free to send us any other additional notes. E.g. what you would have done with more time.
-
-## TODO
-
-- Check README
-- Publically visible Figma link
