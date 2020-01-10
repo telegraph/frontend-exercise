@@ -27,7 +27,7 @@ You should spend around four hours on this task. If you do not complete the task
 * Application should be fully responsive
 * Pass the [ACs](#scroll-acceptance-criteria)
 * Ensure code is unit tested. We've set this up with [Jest](https://jestjs.io/) but feel free to use whatever you like
-* The article data and related posts JSON should be made server side (example integration of `meta.json` included)
+* The article and related posts JSON calls should be made server side (example integration of `meta.json` included)
 * Comments should be called once the DOM is ready via [this endpoint](https://my-json-server.typicode.com/telegraph/frontend-exercise/comments). This call should be made client-side and injected with JavaScript
 * Keep your JavaScript vanilla please :icecream:
 
