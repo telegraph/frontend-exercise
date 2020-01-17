@@ -90,10 +90,8 @@ Scenario: Show single post
 Scenario: Show associated articles
 	Given that I access the single post page
 	Then the post page should return associated posts by category
-	And each item should show the title of the article 
-	And each item should show the date of the article
+	And each item should show the title of the article
 	And each item should show the thumbnail of the article
-	And each item should show the premium label if premium
 ```
 
 ```
