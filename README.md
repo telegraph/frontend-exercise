@@ -19,7 +19,8 @@ We've built a bare-bones [express](https://expressjs.com/) application with some
 
 Your code should work in modern browsers such as Chrome, Firefox and Edge. Do not worry about supporting IE11 or below.
 
-You should spend around four hours on this task. If you do not complete the task in time please submit with a list of what you would have done with more time. Feel free to be specific and write `// TODO`s throughout your code.
+You should not spend more than 3 hours on this task. We are not expecting a fully functioning masterpiece in this time :)
+For everything you are not able to complete, please submit with a list of what you would have done with more time and/or write `// TODO`s throughout your code.
 
 ### :mega: Requirements
 
