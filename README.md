@@ -50,9 +50,8 @@ You should spend around four hours on this task. If you do not complete the task
 
 ### :art: Designs
 
-* The designs are in [Figma](https://help.figma.com/article/116-getting-started) and can be found [here](https://www.figma.com/file/9AwWDASywE5qTuPGsdhbm5/Article-Template), alternatively there are exported design files in the `design` directory in the root of the project.
-* If using Figma, you can toggle the grid on and off by clicking the hamburger menu (top left) and selecting `View > Layout Grids`.
-* The font in the design file is a custom font so feel free to use whichever font you like.
+* The designs can be found in the `design` directory in the root of the project.
+* The font in the design file is a custom font so feel free to use whichever font you like (ideally not webdings).
 
 ## :floppy_disk: Set up
 
